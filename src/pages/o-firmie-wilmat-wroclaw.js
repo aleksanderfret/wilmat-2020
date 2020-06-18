@@ -1,22 +1,39 @@
-import React from 'react'
-import { Link } from 'gatsby'
+import React from 'react';
+import { graphql, Link } from 'gatsby';
+import Layout from '../components/layout';
+import SEO from '../components/seo';
 
-import Layout from '../components/layout'
-import SEO from '../components/seo'
+const IndexPage = ({ data }) => {
+  if (!data) {
+    return null;
+  }
 
-const IndexPage = () => (
-  <Layout>
-    <SEO title="O firmie Wilmat | Zakres działalności: projekty, montaż, serwis, sprzedaż." />
-    <h1>O Wilmat</h1>
-    <h2>Doświadczenie</h2>
-    <p>
-      Działamy na rynku instalacji już od 2003 roku. Przez ten czas zdobyliśmy
-      bogate doświadczenie, realizując różnorodne zadania dla wielu firm,
-      instytucji oraz klientów indywidualnych.
-    </p>
-    <Link to="/">Go to home</Link> <br />
-    <Link to="/page-2/">Go to page 2</Link> <br />
-  </Layout>
-)
+  const { seo } = data.yaml;
+  return (
+    <Layout>
+      <SEO {...seo} />
+      <h1>O Wilmat</h1>
+      <h2>Doświadczenie</h2>
+      <p>
+        Działamy na rynku instalacji już od 2003 roku. Przez ten czas zdobyliśmy
+        bogate doświadczenie, realizując różnorodne zadania dla wielu firm,
+        instytucji oraz klientów indywidualnych.
+      </p>
+      <Link to="/">Go to home</Link> <br />
+    </Layout>
+  );
+};
 
-export default IndexPage
+export const query = graphql`
+  {
+    yaml(page: { eq: "about" }) {
+      seo {
+        title
+        keywords
+        description
+      }
+    }
+  }
+`;
+
+export default IndexPage;
