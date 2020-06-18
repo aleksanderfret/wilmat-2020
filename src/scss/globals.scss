@@ -72,10 +72,9 @@ td {
   font-size: 100%;
   vertical-align: baseline;
   background: transparent;
+  box-sizing: border-box;
 }
-body {
-  line-height: 1;
-}
+
 ol,
 ul {
   list-style: none;
@@ -112,5 +111,14 @@ table {
 }
 
 h1 {
-  color: p.$themeColor;
+  color: p.$themeBlue;
+}
+
+body {
+  font-style: normal;
+  font-variant: normal;
+  font-weight: p.$fontLight;
+  font-size: p.$fontM;
+  font-family: p.$fontFamily;
+  line-height: p.$fontLine;
 }
