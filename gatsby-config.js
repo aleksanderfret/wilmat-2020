@@ -1,33 +1,60 @@
 module.exports = {
-  siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
-  },
   plugins: [
-    `gatsby-plugin-react-helmet`,
+    'gatsby-plugin-react-helmet',
     {
-      resolve: `gatsby-plugin-sass`,
+      resolve: 'gatsby-plugin-sass',
       options: {
         implementation: require('sass'),
       },
     },
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
     {
-      resolve: `gatsby-plugin-manifest`,
+      resolve: `gatsby-transformer-yaml`,
       options: {
-        name: `Wilmat`,
-        short_name: `Wilmat`,
-        start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
-        display: `minimal-ui`,
-        icon: `src/images/wilmat-icon.png`, // This path is relative to the root of the site.
+        typeName: `yaml`,
+      },
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'images',
+        path: `${__dirname}/src/images/`,
+      },
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'data',
+        path: `${__dirname}/src/data/`,
+      },
+    },
+    'gatsby-transformer-sharp',
+    'gatsby-plugin-sharp',
+    {
+      resolve: 'gatsby-plugin-prefetch-google-fonts',
+      options: {
+        fonts: [
+          {
+            family: 'Montserrat',
+            variants: ['300', '400', '700'],
+            subsets: ['latin-ext'],
+          },
+        ],
+      },
+    },
+    {
+      resolve: 'gatsby-plugin-manifest',
+      options: {
+        name: 'Wilmat',
+        short_name: 'Wilmat',
+        start_url: '/',
+        background_color: '#663399',
+        theme_color: '#663399',
+        display: 'minimal-ui',
+        icon: 'src/images/wilmat-icon.png', // This path is relative to the root of the site.
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
+    // 'gatsby-plugin-offline',
   ],
-}
+};
