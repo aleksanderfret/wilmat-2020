@@ -69,22 +69,36 @@ export const query = graphql`
       }
     }
     yaml(page: { eq: "about" }) {
-      seo {
-        title
-        description
-        keywords
-      }
-      title
       about {
+        content {
+          header
+          text
+        }
+        header
         image {
           alt
           description
           name
         }
-        texts {
-          description
-          title
+      }
+      header
+      page
+      scope {
+        content {
+          header
+          text
         }
+        header
+        image {
+          alt
+          description
+          name
+        }
+      }
+      seo {
+        description
+        keywords
+        title
       }
     }
   }
