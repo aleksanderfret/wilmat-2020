@@ -1,3 +1,4 @@
+@use 'sass:color';
 @use 'partials' as p;
 
 /* http://meyerweb.com/eric/tools/css/reset/ */
@@ -111,7 +112,11 @@ table {
 }
 
 h1 {
-  color: p.$themeBlue;
+  color: p.lighten(p.$themeBlue, 50);
+
+  @include p.breakpoint(p.$screenL) {
+    color: p.darken(p.$themeBlue, 50);
+  }
 }
 
 body {
