@@ -27,6 +27,7 @@ module.exports = {
         implementation: require('sass'),
       },
     },
+    'gatsby-plugin-stylelint',
     {
       resolve: `gatsby-transformer-yaml`,
       options: {

@@ -11,7 +11,6 @@
 @function alpha($color, $value) {
   @return color.scale($color, $alpha: $value);
 }
-
 @function four-by($multiplier) {
   @return $multiplier * 4px;
 }

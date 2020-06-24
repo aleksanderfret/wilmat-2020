@@ -25,7 +25,11 @@
     "sass": "1.26.9"
   },
   "devDependencies": {
-    "prettier": "2.0.5"
+    "gatsby-plugin-stylelint": "3.2.0",
+    "prettier": "2.0.5",
+    "stylelint": "13.6.1",
+    "stylelint-config-recommended": "3.0.0",
+    "stylelint-scss": "3.18.0"
   },
   "scripts": {
     "build": "gatsby build",
@@ -34,6 +38,7 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
+    "stylelint": "stylelint src/**/*.scss --cache",
     "test": "echo Write tests"
   },
   "repository": {
