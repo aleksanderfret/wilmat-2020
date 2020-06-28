@@ -1,0 +1,42 @@
+page: 'about'
+
+seo:
+  title: '123'
+  description: '456'
+  keywords: '789'
+
+header: O firmie
+
+about:
+  header: O Wilmat
+  image:
+    name: o-firmie-wilmat-wroclaw.jpg
+    alt: O firmie Wilmat Wrocław
+    description: Nasza firma istnieje od
+  content:
+    - header: Doświadczenie
+      text: Działamy na rynku instalacji już od 2003 roku. Przez ten czas zdobyliśmy bogate doświadczenie, realizując różnorodne zadania dla wielu firm, instytucji oraz klientów indywidualnych.
+    - header: Nowoczesne rozwiązania
+      text: W swoich instalacjach wykorzystujemy nowoczesne urządzenia i stosujemy nowatorskie rozwiązania, zadowalając najbardziej wymagających klientów.
+    - header: Profesjonalizm
+      text: Do każdego zadania podchodzimy z dużym zaangażowaniem. Stosujemy wysokiej jakości urządzenia i komponenty. Nasze doświadczenie i  umiejętności pozwalają nam kompleksowo zrealizować każde zlecenie.
+    - header: Kwalifikacje
+      text: Posiadamy szerokie kwalifikacje oraz wymagane uprawnienia i certyfkaty. Jesteśmy autoryzowanym przedstawicielem firm NICE i FERMAX.
+    - header: Dbałość o detale
+      text: W naszej pracy zwracamy uwagę na najdrobniejsze szczegóły, dzięki czemu każda nasza instalacja cechuje się najwyższą jakością wykonania.
+
+scope:
+  header: Zakres działalności
+  image:
+    name: alarmy-i-systemy-alarmowe
+    alt: Oferta alarmów
+    description: Jakiś tam niesamowity opis alarmów
+  content:
+    - header: Montujemy
+      text: Montujemy pojedyncze urządzenia oraz rozbudowane systemy instalacji elektrycznych i niskoprądowych. Podejmujemy się zleceń nietypowych i realizowanych w niestandarodwych warunkach. Trudne technicznie zadania są dla nas wyzwaniem oraz okazją do podniesienia umiejętności.
+    - header: Projektujemy
+      text: 'Projektujemy instalacje zarówno dla mieszkań jak i budynków komercyjnych. Wysoką jakość naszych projektów gwarantują: wnikliwa analiza oczekiwań klienta, rzeczowa ocena warunków lokalowych/terenowych, profesjonalny dobór komponentów instalacji oraz bogate doświadczenie pracowników.'
+    - header: Sprzedajemy
+      text: Sprzedajemy automaty do bram garażowych, przesuwnych, skrzydłowych firmy Nice, domofony oraz wideodomofony firmy Fermax, rejestratory, kamery, transmitery, anteny satelitarne, czujki alarmowe, kompletne systemy alarmowe.
+    - header: Serwisujemy i konserwujemy
+      text: Prowadzimy serwis gwarancyjny oraz pogwarancyjny oferowanych przez nas urządzeń. Zapewniamy opiekę nad sieciami telewizyjnymi, domofonowymi, wideodomofonowymi w ramach stałych umów serwisowych. Przeprowadzamy konserwację oraz modernizację istniejących instalacji.
