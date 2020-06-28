@@ -11,7 +11,6 @@ const IndexPage = ({ data }) => {
     return null;
   }
 
-  console.log(data);
   const { seo, title, about } = data.yaml;
   const { edges: images } = data.allFile;
 

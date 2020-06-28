@@ -14,7 +14,7 @@ module.exports = {
   },
   plugins: [
     'gatsby-plugin-react-helmet',
-    `gatsby-plugin-sitemap`,
+    'gatsby-plugin-sitemap',
     {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
@@ -28,10 +28,11 @@ module.exports = {
       },
     },
     'gatsby-plugin-stylelint',
+    'gatsby-plugin-eslint',
     {
-      resolve: `gatsby-transformer-yaml`,
+      resolve: 'gatsby-transformer-yaml',
       options: {
-        typeName: `yaml`,
+        typeName: 'yaml',
       },
     },
     {

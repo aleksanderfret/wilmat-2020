@@ -61,7 +61,7 @@ Seo.propTypes = {
   keywords: PropTypes.string.isRequired,
   lang: PropTypes.string,
   meta: PropTypes.arrayOf(
-    PropTypes.shape({ name: PropTypes.string, content: PropTypes.string })
+    PropTypes.shape({ name: PropTypes.string, content: PropTypes.string }),
   ),
   title: PropTypes.string.isRequired,
 };
