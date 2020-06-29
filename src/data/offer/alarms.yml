@@ -1,0 +1,52 @@
+page: 'alarms'
+
+seo:
+  description: 'Wilmat | Wrocław - informacje o firmie. Zakres działalności: projekty, montaż, serwis, sprzedaż urządzeń i instalacji elektrycznych oraz niskoprądowych.'
+  keywords: 'Wrocław, Dolny Śląsk, automaty do bram, szlabany, alarmy, systemy alarmowe, systemy kontroli dostępu, czujniki, domofony, wideodomofony, telewizja, anteny, anteny satelitarne, DVBT, kamery, monitoring cctv, telewizja przemysłowa, systemy parkingowe, wideo, systemy audio-wideo, kino domowe,głośniki, instalacje elektryczne, montaż Wrocław, instalacje Wrocław, konserwacja, serwis Wrocław, usługi elektryczne, instalcje niskoprądowe, sprzedaż, doradztwo, opieka, obsługa.'
+  title: 'Informacje o firmie Wilmat. Zakres działalności: projekty, montaż, serwis, sprzedaż.'
+
+header: Alarmy i systemy alarmowe
+
+products:
+  header: Produkty
+  content:
+    - header: Systemy alarmowe
+      text: 'Kategoria obejmuje: systemy alarmowe przewodowe i bezprzewodowe, systemy sygnalizacji włamania i napadu SSWiN, centrale alarmowe, sygnalizatory, komunikatory telefoniczne (dialery) GSM/GPRS'
+    - header: Systemy antynapadowe
+      text: Pozwalają uruchomić cichy alarm, który powiadamia o zagrożeniu odpowiednie służby.
+    - header: Czujki alarmowe
+      text: 'W większości systemów alarmowych stosuje się czujki: ruchu, zbicia szkła, magnetyczne do drzwi i okien.'
+    - header: Czujniki wykrywające zagrożenia
+      text: Czujniki (detektory) zalania, dymu, gazu itp. wzbogacają systemy alarmowe o możliwość wysyłania powiadomień, gdy wystąpi awaria lub sytuacja stwarzająca zagrożenie dla zdrowia i życia.
+
+services:
+  header: Co oferujemy
+  content:
+    - header: Profesjonalny montaż
+      text: Nasze doświadczenie oraz umiejętności gwarantują wysoką jakość wykonywanych usług. Przy pracach instalacyjnych dbamy o to, by ingerencję w miejscu montażu ograniczyć do niezbędnego minimum.
+    - header: Renomowani producenci
+      text: W instalacjach stosujemy urządzenia i&nbsp;akcesoria renomowanych, wiodących producentów, takich jak SATEL.
+    - header: Gwarancja
+      text: Urządzenia przez nas oferowane objęte są gwarancją trwającą od 2 do 3 lat.
+    - header: Nowoczesne technologie
+      text: Nieustannie rozszerzamy naszą ofertę o najnowsze modele i&nbsp;nowatorskie rozwiązania techniczne oraz dbamy o aktualizację oprogramowania.
+    - header: Wsparcie techniczne
+      text: Zawsze jesteśmy gotowi służyć klientom fachową wiedzą i&nbsp;pomocą. Dodatkowo oferujemy opiekę nad instalacjami w ramach stałych umów konserwatorskich.
+    - header: Doradztwo
+      text: Doradzamy, jak najlepiej przygotować miejsce montażu alarmu (np. jak poprowadzić okablowanie). Pomagamy przy wyborze konkretnych rozwiązań i urządzeń (np. optymalny dobór komponentów pod kątem wymogów bezpieczeństwa oraz oczekiwań klienta).
+
+works:
+  header: Wybrane realizacje
+  images:
+    - alt: Alarm Satel - klawiatura sensoryczna
+      description: 'Montaż alarmu Satel Integra 64: klawiatura sensoryczna.'
+      name: wilmat-alarm-klawiatura-satel.jpg
+    - alt: Alarm Satel - manipulator dotykowy
+      description: 'Montaż alarmu Satel Integra 128wrl: manipulator dotykowy.'
+      name: wilmat-alarm-manipulator-satel.jpg
+    - alt: Alarm Satel
+      description: 'Montaż alarmu Satel: manipulator dotykowy.'
+      name: wilmat-alarm-manipulator-dotykowy-satel.jpg
+    - alt: Alarm Satel
+      description: Montaż centrali alarmowej Satel versa10 z modułem GSM i wewnętrzną syreną SPW100.
+      name: wilmat-centrala-alarmowa-versa10.jpg
