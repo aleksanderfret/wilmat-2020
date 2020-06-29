@@ -1,5 +1,53 @@
 page: home
+
 seo:
   description: Oferujemy montaż, sprzedaż, serwis automatów do bram, szlabanów, alarmów, systemów monitoringu, anten, domofonów, systemówy kontroli dostępu.
   keywords: Wrocław, Dolny Śląsk, automaty do bram, szlabany, alarmy, systemy alarmowe, systemy kontroli dostępu, czujniki, domofony, wideodomofony, telewizja, anteny, anteny satelitarne, DVBT, kamery, monitoring cctv, telewizja przemysłowa, systemy parkingowe, systemy audio-wideo, kino domowe,głośniki, audio-wideo, instalacje elektryczne, montaż Wrocław, instalacje Wrocław, serwis Wrocław, konserwacja, opieka, usługi elektryczne i niskoprądowe, sprzedaż, doradztwo, obsługa.
   title: Wilmat | Wrocław - monitoring, alarmy, automaty do bram, domofony, kontrola dostępu.
+
+hero:
+  image:
+    alt: alt tekst
+    description: Opis obrazka
+    name: o-firmie-wilmat-wroclaw.jpg
+  slogan: Instalacje niskoprądowe
+
+areas:
+  header: Czym się zajmujemy
+  content:
+    - header: Automatyka do bram
+      text: Automaty (siłowniki) do bram wjazdowych, garażowych, przesuwnych, skrzydłowych, szlabanów oraz rolet. Akcesoria.
+    - header: Szlabany i systemy parkingowe
+      text: Szlabany elektromechaniczne i hydrauliczne, blokady i zapory drogowe, terminale wjazdowe i wyjazdowe, urządzenia do poboru opłat.
+    - header: Systemy domofonowe
+      text: Domofony analogowe i cyfrowe, wideodomofony dla instytucji, firm, budynków jednorodzinnych i wielorodzinnych.
+    - header: Alarmy i systemy alarmowe<
+      text: Alarmy przewodowe i bezprzewodowe, alarmy domowe i dla firm, alarmy do ochrony zewnętrznej, systemy antynapadowe.
+    - header: Systemy kontroli dostępu
+      text: 'Systemy kontroli dostępu, urządzenia identyfikujące: czytniki kart, czytniki biometryczne, szyfratory numeryczne.'
+    - header: Monitoring i kamery CCTV
+      text: Telewizja przemysłowa - kamery wewnętrzne, zewnętrzne i obrotowe, kamery cyfrowe IP i Turbo HD, rejestratory cyfrowe.
+    - header: Systemy audio-wideo
+      text: Kina domowe, odtwarzacze audio, nagłośnienie, projektory, ekrany, systemy multiroom.
+    - header: Antetny i instalacje zbiorcze
+      text: Anteny systemów telewizji satelitarnej i naziemnej DVB-T, anteny radiowe, wzmacniacze antenowe, instalacje zbiorcze.
+    - header: Instalacje elektryczne
+      text: Montaż rozdzielni elektrycznych i osprzętu elektrycznego, oświetlenie LED, żyrandole i lampy wiszące, inteligentne budynki.
+    - header: Światłowody
+      text: Montaż instalacji światłowodowych, spawanie światłowów
+
+reasons:
+  header: Dlaczego wybrać Wilmat?
+  content:
+    - header: Wieloletnie doświadczenie
+      text: Działamy na rynku instalacji już od 2003 roku. Przez ten czas zrealizowaliśmy bardzo wiele różnorodnych zleceń dla firm, instytucji i klientów indywidualnych.
+    - header: Nowoczesne rozwiązania
+      text: W naszych instalacjach wykorzystujemy nowoczesne urządzenia i komponenty oraz stosujemy nowatorskie rozwiązania, zadowalając najbardziej wymagających klientów.
+    - header: Profesjonalizm
+      text: Posiadamy szerokie kwalifikacje oraz niezbędne uprawnienia. Do każdego zadania podchodzimy indywidualnie i z dużym zaangażowaniem. Stosujemy komponenty wysokiej jakości.
+    - header: Bogata oferta
+      text: Nasza oferta obejmuje szeroki wachlarz usług, co&nbsp;umożliwia kompleksową realizację nawet złożonych zadań. Chętnie podejmujemy się również nowych wyzwań.
+    - header: Zaufanie firm i instytucji
+      text: W ciągu naszej wieloletniej działalności zaufało nam już bardzo wielu klientów. Jesteśmy dumni, że niejednokrotnie wracają do nas z kolejnymi zleceniami.
+    - header: Elastyczność
+      text: Planując prace, zawsze staramy się proponować terminy optymalne dla klienta. Priorytetowo traktujemy zgłoszenia dotyczące sytuacji awaryjnych.
