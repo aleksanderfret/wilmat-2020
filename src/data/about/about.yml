@@ -1,18 +1,18 @@
 page: 'about'
 
 seo:
-  title: '123'
-  description: '456'
-  keywords: '789'
+  description: 'Wilmat | Wrocław - informacje o firmie. Zakres działalności: projekty, montaż, serwis, sprzedaż urządzeń i instalacji elektrycznych oraz niskoprądowych.'
+  keywords: 'Wrocław, Dolny Śląsk, automaty do bram, szlabany, alarmy, systemy alarmowe, systemy kontroli dostępu, czujniki, domofony, wideodomofony, telewizja, anteny, anteny satelitarne, DVBT, kamery, monitoring cctv, telewizja przemysłowa, systemy parkingowe, wideo, systemy audio-wideo, kino domowe,głośniki, instalacje elektryczne, montaż Wrocław, instalacje Wrocław, konserwacja, serwis Wrocław, usługi elektryczne, instalcje niskoprądowe, sprzedaż, doradztwo, opieka, obsługa.'
+  title: 'Informacje o firmie Wilmat. Zakres działalności: projekty, montaż, serwis, sprzedaż.'
 
 header: O firmie
 
 about:
   header: O Wilmat
   image:
-    name: o-firmie-wilmat-wroclaw.jpg
     alt: O firmie Wilmat Wrocław
     description: Nasza firma istnieje od
+    name: o-firmie-wilmat-wroclaw.jpg
   content:
     - header: Doświadczenie
       text: Działamy na rynku instalacji już od 2003 roku. Przez ten czas zdobyliśmy bogate doświadczenie, realizując różnorodne zadania dla wielu firm, instytucji oraz klientów indywidualnych.
@@ -28,9 +28,9 @@ about:
 scope:
   header: Zakres działalności
   image:
+    alt: alt tekst
+    description: Opis obrazka
     name: alarmy-i-systemy-alarmowe
-    alt: Oferta alarmów
-    description: Jakiś tam niesamowity opis alarmów
   content:
     - header: Montujemy
       text: Montujemy pojedyncze urządzenia oraz rozbudowane systemy instalacji elektrycznych i niskoprądowych. Podejmujemy się zleceń nietypowych i realizowanych w niestandarodwych warunkach. Trudne technicznie zadania są dla nas wyzwaniem oraz okazją do podniesienia umiejętności.
