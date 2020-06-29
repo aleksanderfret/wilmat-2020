@@ -1,4 +1,4 @@
-page: 'about'
+page: about
 
 seo:
   description: 'Wilmat | Wrocław - informacje o firmie. Zakres działalności: projekty, montaż, serwis, sprzedaż urządzeń i instalacji elektrycznych oraz niskoprądowych.'
@@ -15,7 +15,7 @@ about:
     name: o-firmie-wilmat-wroclaw.jpg
   content:
     - header: Doświadczenie
-      text: Działamy na rynku instalacji już od 2003 roku. Przez ten czas zdobyliśmy bogate doświadczenie, realizując różnorodne zadania dla wielu firm, instytucji oraz klientów indywidualnych.
+      text: Działamy na rynku instalacji już od *2003 roku. Przez ten czas zdobyliśmy bogate doświadczenie, realizując różnorodne zadania dla wielu firm, instytucji oraz klientów indywidualnych.
     - header: Nowoczesne rozwiązania
       text: W swoich instalacjach wykorzystujemy nowoczesne urządzenia i stosujemy nowatorskie rozwiązania, zadowalając najbardziej wymagających klientów.
     - header: Profesjonalizm

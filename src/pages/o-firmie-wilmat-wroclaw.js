@@ -11,7 +11,7 @@ const IndexPage = ({ data }) => {
     return null;
   }
 
-  const { seo, title, about } = data.yaml;
+  const { seo, title, about } = data.aboutYaml;
   const { edges: images } = data.allFile;
 
   return (
@@ -43,6 +43,39 @@ const IndexPage = ({ data }) => {
 
 export const query = graphql`
   {
+    aboutYaml {
+      about {
+        header
+        content {
+          header
+          text
+        }
+        image {
+          alt
+          description
+          name
+        }
+      }
+      seo {
+        description
+        keywords
+        title
+      }
+      header
+      page
+      scope {
+        header
+        content {
+          header
+          text
+        }
+        image {
+          alt
+          description
+          name
+        }
+      }
+    }
     allFile(
       filter: {
         extension: { regex: "/(jpg|png)/" }
@@ -65,39 +98,6 @@ export const query = graphql`
           }
           base
         }
-      }
-    }
-    yaml(page: { eq: "about" }) {
-      about {
-        content {
-          header
-          text
-        }
-        header
-        image {
-          alt
-          description
-          name
-        }
-      }
-      header
-      page
-      scope {
-        content {
-          header
-          text
-        }
-        header
-        image {
-          alt
-          description
-          name
-        }
-      }
-      seo {
-        description
-        keywords
-        title
       }
     }
   }
