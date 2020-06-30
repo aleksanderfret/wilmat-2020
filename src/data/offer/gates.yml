@@ -1,0 +1,38 @@
+page: alarms
+
+seo:
+  description: Wilmat | Wrocław. Zajmujemy się sprzedażą, montażem, serwisem i konserwacją automatów do bram i rolet.
+  keywords: Wrocław, Dolny Śląsk, bramy automatyczne, automat do bramy przesuwnej, automat do bramy skrzydłowej, automat do bramy garażowej, automat do rolet, siłowniki do bram, napędy do bram, szlabany, montaż Wrocław, instalacje Wrocław, konserwacja, serwis Wrocław, opieka, sprzedaż, doradztwo, obsługa.
+  title: Wilmat | Wrocław - automaty do bram garażowych, przesuwnych, skrzydłowych oraz rolet.
+
+header: Automatyka do bram
+
+products:
+  header: Produkty
+  content:
+    - header: Automaty do bram garażowych
+      text: 'Kategoria obejmuje: siłowniki do garażowych bram rezydencyjnych. Napędy do bram segmentowych, rolowanych, bocznych, uchylnych i rozwieranych. Akcesoria do bram: klawiatury kodowe, fotokomórki, piloty, akumulatory i inne.'
+    - header: Automaty do bram skrzydłowych
+      text: 'Siłowniki śrubowe, siłowniki z przegubowo łamanym ramieniem, siłowniki podziemne. Przy wyborze odpowiedniego napędu należy wziąć pod uwagę: oczekiwany kąt rozwarcia bramy, intensywność jej użytkowania, wielkość i ciężar skrzydła.'
+    - header: Automaty do bram przesuwnych
+      text: 'Szeroka gama siłowników do bram przesuwnych pozwala dobrać optymalny model do każdej bramy, uwzględniając jej wymiary, ciężar oraz częstotliwość pracy.'
+    - header: Automaty do rolet
+      text: Zwiększają komfort i wygodę, umożliwiając automatyczne sterowanie roletami w zależności od np. intensywności światła słonecznego czy wysokości temperatury powietrza. Tryb wakacyjny oraz tzw. symulacja obecności zwiększa bezpieczeństwo domu podczas nieobecności właściciela.
+    - header: Akcesoria
+      text: 'Kategoria obejmuje: piloty do bram, centrale sterujące, fotokomórki, lampy sygnalizacyjne, panele słoneczne, pętle indukcyjne.'
+
+services:
+  header: Co oferujemy
+  content:
+    - header: Profesjonalny i nieinwazyjny montaż
+      text: Nasze doświadczenie oraz umiejętności gwarantują wysoką jakość wykonywanych usług. Przy pracach instalacyjnych dbamy o to, by ingerencję w miejscu montażu ograniczyć do niezbędnego minimum. Posiadamy licencję do montażu automatyki firmy NICE.
+    - header: Renomowani producenci
+      text: W instalacjach stosujemy urządzenia i akcesoria renomowanych, wiodących producentów, takich jak NICE, CAME, SOMFY.
+    - header: Gwarancja
+      text: Urządzenia przez nas oferowane objęte są gwarancją trwającą od 2 do 5 lat.
+    - header: Nowoczesne technologie
+      text: Nieustannie rozszerzamy naszą ofertę o najnowsze modele i nowatorskie rozwiązania techniczne.
+    - header: Wsparcie techniczne
+      text: Zawsze jesteśmy gotowi służyć klientom fachową wiedzą i pomocą. Dodatkowo oferujemy opiekę nad instalacjami w ramach stałych umów konserwatorskich.
+    - header: Doradztwo
+      text: Doradzamy, jak najlepiej przygotować miejsce montażu automatu (np. jak poprowadzić okablowanie). Pomagamy przy wyborze urządzeń (np. optymalny dobór siłownika do warunków użytkowania).
