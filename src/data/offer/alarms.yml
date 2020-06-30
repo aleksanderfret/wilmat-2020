@@ -1,9 +1,9 @@
-page: 'alarms'
+page: alarms
 
 seo:
-  description: 'Wilmat | Wrocław - informacje o firmie. Zakres działalności: projekty, montaż, serwis, sprzedaż urządzeń i instalacji elektrycznych oraz niskoprądowych.'
-  keywords: 'Wrocław, Dolny Śląsk, automaty do bram, szlabany, alarmy, systemy alarmowe, systemy kontroli dostępu, czujniki, domofony, wideodomofony, telewizja, anteny, anteny satelitarne, DVBT, kamery, monitoring cctv, telewizja przemysłowa, systemy parkingowe, wideo, systemy audio-wideo, kino domowe,głośniki, instalacje elektryczne, montaż Wrocław, instalacje Wrocław, konserwacja, serwis Wrocław, usługi elektryczne, instalcje niskoprądowe, sprzedaż, doradztwo, opieka, obsługa.'
-  title: 'Informacje o firmie Wilmat. Zakres działalności: projekty, montaż, serwis, sprzedaż.'
+  description: Wilmat | Wrocław. Zajmujemy się sprzedażą, montażem, serwisem i konserwacją sytemów alarmowych.
+  keywords: Wrocław, Dolny Śląsk, alarmy, systemy alarmowe, czujniki, czujki, detektory, dialery, centrale alarmowe, sygnalizatory, montaż Wrocław, instalacje Wrocław, serwis Wrocław, konserwacja,opieka, sprzedaż, doradztwo, obsługa
+  title: Wilmat | Wrocław - alarmy, systemy alarmowe, centrale alarmowe, czujki, czujniki, detektory.
 
 header: Alarmy i systemy alarmowe
 
@@ -34,19 +34,3 @@ services:
       text: Zawsze jesteśmy gotowi służyć klientom fachową wiedzą i&nbsp;pomocą. Dodatkowo oferujemy opiekę nad instalacjami w ramach stałych umów konserwatorskich.
     - header: Doradztwo
       text: Doradzamy, jak najlepiej przygotować miejsce montażu alarmu (np. jak poprowadzić okablowanie). Pomagamy przy wyborze konkretnych rozwiązań i urządzeń (np. optymalny dobór komponentów pod kątem wymogów bezpieczeństwa oraz oczekiwań klienta).
-
-works:
-  header: Wybrane realizacje
-  images:
-    - alt: Alarm Satel - klawiatura sensoryczna
-      description: 'Montaż alarmu Satel Integra 64: klawiatura sensoryczna.'
-      name: wilmat-alarm-klawiatura-satel.jpg
-    - alt: Alarm Satel - manipulator dotykowy
-      description: 'Montaż alarmu Satel Integra 128wrl: manipulator dotykowy.'
-      name: wilmat-alarm-manipulator-satel.jpg
-    - alt: Alarm Satel
-      description: 'Montaż alarmu Satel: manipulator dotykowy.'
-      name: wilmat-alarm-manipulator-dotykowy-satel.jpg
-    - alt: Alarm Satel
-      description: Montaż centrali alarmowej Satel versa10 z modułem GSM i wewnętrzną syreną SPW100.
-      name: wilmat-centrala-alarmowa-versa10.jpg

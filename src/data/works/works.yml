@@ -1,0 +1,70 @@
+page: works
+
+seo:
+  description:
+  keywords:
+  title:
+
+header: Realizacje
+
+works:
+  alarms:
+    header: Alarmy i systemy alarmowe
+    images:
+      - alt: Alarm Satel - klawiatura sensoryczna
+        description: Montaż alarmu Satel Integra 64 z klawiaturą sensoryczną.
+        name: wilmat-alarm-klawiatura-satel.jpg
+      - alt: Alarm Satel - manipulator dotykowy
+        description: Montaż alarmu Satel Integra 128wrl z manipulatorem dotykowym.
+        name: wilmat-alarm-manipulator-satel.jpg
+      - alt: Alarm Satel
+        description: Montaż alarmu Satel z manipulatorem dotykowym.
+        name: wilmat-alarm-manipulator-dotykowy-satel.jpg
+      - alt: Alarm Satel
+        description: Montaż centrali alarmowej Satel versa10 z modułem GSM i wewnętrzną syreną SPW100.
+        name: wilmat-centrala-alarmowa-versa10.jpg
+  gates:
+    header: Automatyka do bram
+    images:
+      - alt: Automat do bramy NICE robus otwierany przez aplikacje
+        description: Montaż automatu do bramy przesuwnej NICE robus otwieranej przez aplikację.
+        name: wilamt-automat-do-bramy-nice-robus-400-otwieranie-przez-aplikacje.jpg
+      - alt: Automat do bramy NICE robus
+        description: Montaż automatu do bramy przesuwnej NICE robus.
+        name: wilmat-automat-do-bamy-nice-robus.jpg
+      - alt: Automat do bramy przesuwnej NICE
+        description: Montaż automatu do bramy przesuwnej NICE run1800.
+        name: wilmat-automat-do-bramy-przesuwnej-nice-run1800-1.jpg
+      - alt: Automat podziemny do bramy dwuskrzydłowej NICE
+        description: Montaż automatu podziemny do bramy dwuskrzydłowej NICE metro me3000.
+        name: wilmat-automat-do-bramy-dwuskrzydlowej-nice-metro-me3000-1.jpg
+      - alt: Automat do bramy przesuwnej NICE
+        description: Montaż automatu do bramy przesuwnej NICE robus350.
+        name: wilmat-automat-do-bramy-przesuwnej-nice-robus350.jpg
+      - alt: Automat do bramy skrzydłowej NICE
+        description: Montaż automatu do bramy skrzydłowej NICE pop.
+        name: wilmat-automat-do-bramy-skrzydlowej-nice-pop.jpg
+      - alt: Automat do bramy dwuskrzydlowej NICE
+        description: Montaż automatu do bramy dwuskrzydłowej NICE wingo3524.
+        name: wilmat-automat-do-bramy-dwuskrzydlowej-nice-wingo3524.jpg
+      - alt: Automat do bramy dwuskrzyłowej NICE
+        description: Montaż automatu do bramy dwuskrzydłowej NICE walky.
+        name: wilmat-automat-do-bramy-dwuskrzydlowej-nice-walky.jpg
+      - alt: Automat do bramy dwuskrzydlowej NICE
+        description: Montaż zestaw 3 automatów podziemnych do bram dwuskrzydłowych NICE metro me3000.
+        name: wilmat-automat-do-bramy-dwuskrzydlowej-nice-metro-me3000-2.jpg
+      - alt: Automat do bramy dwuskrzydłowej NICE
+        description: Montaż automatu do bramy dwuskrzydłowej NICE toona4006.
+        name: wilmat-automat-do-bramy-dwuskrzydlowej-nice-toona4006.jpg
+      - alt: Automat do bramy przesuwnej NICE
+        description: Montaż automatu do bramy przesuwnej NICE run1800.
+        name: wilmat-automat-do-bramy-przesuwnej-nice-run1800-2.jpg
+      - alt: Automat do bramy NICE
+        description: Montaż automatu do bramy NICE wingo2024 - nieinwazyjny uchwyt do siłownik.
+        name: wilmat-automat-do-bamy-nice-wingo2024.jpg
+      - alt: Automat do bramy NICE - furtka
+        description: Montaż automatu do bramy NICE moby4005 zamontowany do furtki.
+        name: wilmat-automat-do-bramy-furtka-nice-moby4005.jpg
+      - alt: Automat do bramy garażowej NICE
+        description: Montaż automatu do bramy garażowej NICE spin21.
+        name: wilmat-automat-do-bramy-garazowej-nice-spin21.jpg
