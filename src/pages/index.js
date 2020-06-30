@@ -10,7 +10,7 @@ const IndexPage = ({ data }) => {
     return null;
   }
 
-  const { seo } = data.homeYaml;
+  const { seo } = data.yaml;
 
   return (
     <Layout>
@@ -26,29 +26,29 @@ const IndexPage = ({ data }) => {
 
 export const query = graphql`
   {
-    homeYaml {
-      reasons {
+    yaml(page: { eq: "home" }) {
+      page
+      seo {
+        description
+        keywords
+        title
+      }
+      hero {
+        image {
+          alt
+          description
+          name
+        }
+        slogan
+      }
+      areas {
         header
         content {
           header
           text
         }
       }
-      seo {
-        description
-        keywords
-        title
-      }
-      page
-      hero {
-        slogan
-        image {
-          alt
-          description
-          name
-        }
-      }
-      areas {
+      reasons {
         header
         content {
           header

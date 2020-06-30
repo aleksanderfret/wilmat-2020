@@ -11,7 +11,7 @@ const IndexPage = ({ data }) => {
     return null;
   }
 
-  const { seo, title, about } = data.aboutYaml;
+  const { seo, title, about } = data.yaml;
   const { edges: images } = data.allFile;
 
   return (
@@ -43,36 +43,36 @@ const IndexPage = ({ data }) => {
 
 export const query = graphql`
   {
-    aboutYaml {
-      about {
-        header
-        content {
-          header
-          text
-        }
-        image {
-          alt
-          description
-          name
-        }
-      }
+    yaml(page: { eq: "about" }) {
+      page
       seo {
         description
         keywords
         title
       }
       header
-      page
       scope {
-        header
         content {
           header
           text
         }
+        header
         image {
           alt
           description
           name
+        }
+      }
+      about {
+        header
+        image {
+          alt
+          name
+          description
+        }
+        content {
+          header
+          text
         }
       }
     }

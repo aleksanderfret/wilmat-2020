@@ -30,9 +30,9 @@ module.exports = {
     'gatsby-plugin-stylelint',
     'gatsby-plugin-eslint',
     {
-      resolve: 'gatsby-transformer-yaml-full',
+      resolve: 'gatsby-transformer-yaml',
       options: {
-        plugins: ['gatsby-yaml-full-import'],
+        typeName: 'yaml',
       },
     },
     {
